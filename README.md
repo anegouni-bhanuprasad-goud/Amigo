@@ -36,29 +36,20 @@ Amigo leverages a modular architecture for scalability and maintainability, incl
 - **Local Storage**: Secure offline data management.
 
 ---
-**Contributors**
+## Contributors
 
-_Anegouni Bhanuprasad Goud 
-
-_Eda Srinath
-
-_Bodhu Harshitha
-
-_Megadi Vinay Kumar
+Anegouni Bhanuprasad Goud 
+Eda Srinath
+Bodhu Harshitha
+Megadi Vinay Kumar
 
 Guided by Mrs. SR. Ashwini, Assistant Professor, Department of Computer Science & Engineering (AI & ML), Mahaveer Institute of Science and Technology.
 
-License
+---
+## License
 This project is for academic and personal use. For commercial licensing or contributions, please contact the maintainers.
 
-Acknowledgements
+**Acknowledgements**
 Special thanks to Mrs. SR. Ashwini (Project Guide), Mrs. Swapna (Head of Department), Dr. V. Usha Shree (Principal), and the Mahaveer Institute of Science and Technology for their guidance and support.
-
-Future Enhancements
-Smart home integrations
-
-Expanded AI capabilities
-
-Enhanced multi-platform support
-
+---
 Amigo redefines the digital assistant experience-intelligent, secure, and truly yours.
