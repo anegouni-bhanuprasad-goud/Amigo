@@ -51,5 +51,6 @@ This project is for academic and personal use. For commercial licensing or contr
 
 **Acknowledgements**
 Special thanks to Mrs. SR. Ashwini (Project Guide), Mrs. Swapna (Head of Department), Dr. V. Usha Shree (Principal), and the Mahaveer Institute of Science and Technology for their guidance and support.
+
 ---
 Amigo redefines the digital assistant experience-intelligent, secure, and truly yours.
