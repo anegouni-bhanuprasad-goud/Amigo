@@ -36,14 +36,15 @@ Amigo leverages a modular architecture for scalability and maintainability, incl
 - **Local Storage**: Secure offline data management.
 
 ---
-Contributors
-Anegouni Bhanuprasad Goud 
+**Contributors**
 
-Eda Srinath
+_Anegouni Bhanuprasad Goud 
 
-Bodhu Harshitha
+_Eda Srinath
 
-Megadi Vinay Kumar
+_Bodhu Harshitha
+
+_Megadi Vinay Kumar
 
 Guided by Mrs. SR. Ashwini, Assistant Professor, Department of Computer Science & Engineering (AI & ML), Mahaveer Institute of Science and Technology.
 
