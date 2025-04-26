@@ -39,8 +39,11 @@ Amigo leverages a modular architecture for scalability and maintainability, incl
 ## Contributors
 
 Anegouni Bhanuprasad Goud 
+
 Eda Srinath
+
 Bodhu Harshitha
+
 Megadi Vinay Kumar
 
 Guided by Mrs. SR. Ashwini, Assistant Professor, Department of Computer Science & Engineering (AI & ML), Mahaveer Institute of Science and Technology.
