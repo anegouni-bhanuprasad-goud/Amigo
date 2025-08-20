@@ -1,0 +1,84 @@
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { LinearGradient } from 'expo-linear-gradient'; // Import LinearGradient from expo-linear-gradient
+
+const Settings = () => {
+  const navigation = useNavigation();
+
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity
+        onPress={() => navigation.navigate('VoiceList')}
+        style={styles.touchable}
+      >
+        <LinearGradient
+          colors={['#6200ea', '#9c27b0']} // Gradient colors
+          style={styles.button}
+        >
+          <Icon name="record-voice-over" size={48} color="#ffffff" style={styles.icon} />
+          <Text style={styles.buttonText}>Voice List</Text>
+        </LinearGradient>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => navigation.navigate('API_Key')}
+        style={styles.touchable}
+      >
+        <LinearGradient
+          colors={['#4caf50', '#8bc34a']} // Gradient colors
+          style={styles.button}
+        >
+          <Icon name="vpn-key" size={48} color="#ffffff" style={styles.icon} />
+          <Text style={styles.buttonText}>API Key</Text>
+        </LinearGradient>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => navigation.navigate('Personal_data')}
+        style={styles.touchable}
+      >
+        <LinearGradient
+          colors={['#ff5722', '#ff9800']} // Gradient colors
+          style={styles.button}
+        >
+          <Icon name="person" size={48} color="#ffffff" style={styles.icon} />
+          <Text style={styles.buttonText}>Personal Details</Text>
+        </LinearGradient>
+      </TouchableOpacity>
+    </View>
+  );
+};
+
+export default Settings;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    padding: 20,
+  },
+  touchable: {
+    marginVertical: 10,
+    width: '80%', // Matches button width for consistent touch area
+  },
+  button: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: 20,
+    borderRadius: 15,
+    width: '100%', // Full width of TouchableOpacity
+  },
+  icon: {
+    marginBottom: 10,
+  },
+  buttonText: {
+    color: '#ffffff',
+    fontSize: 18,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+});

@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "prompt": "Hello",
+    "output": "Hello, How can I help you?",
+    "fileSelected" : false,
+    "files": null
+  },
+  {
+    "id": 2,
+    "prompt": "What is your name?",
+    "output": "My name is AB",
+    "fileSelected" : false,
+    "files": null
+  },
+  {
+    "id": 3,
+    "prompt": "What is fullform of AI?",
+    "output": "The full form of AI is Artificial Intelligence.",
+    "fileSelected" : false,
+    "files": null
+  },
+  {
+    "id": 4,
+    "prompt": "What is the capital of India?",
+    "output": "New Delhi",
+    "fileSelected" : true,
+    "files": [
+      {
+        "id": 1,
+        "name": "file1.jpeg",
+        "mimeType" : "image/jpeg",
+        "path"  : "example/path/file1.jpeg",
+        "encodedData" : "ertyjnbvfrt678ikmnbgtyuiko098uhgfde456yuio09iujhgftghbvcdrt"
+      },
+      {
+        "id": 2,
+        "name": "file2.png",
+        "mimeType" : "image/png",
+        "path" : "example/path/file2.png",
+        "encodedData" : "ertyjnbvfrt678ikmnbgtyuikobghuiknbghyjnbvgyujnbvgyj"
+      },
+      {
+        "id": 3,
+        "name": "file3.pdf",
+        "mimeType" : "application/pdf",
+        "path" : "example/path/file3.pdf",
+        "encodedData" : "ertyjnbvfrt678ikmnbgtyuikhdftgfykuyfuvgu"
+      },
+      {
+        "id": 4,
+        "name": "file4.txt",
+        "mimeType" : "text/plain",
+        "path" : "example/path/file4.txt",
+        "encodedData" : "ertyjnbvfrt678ikmnbgtyuikshyuehujfmuyxrtukygioyfoi"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "prompt": "When did India gain independence?",
+    "output": "To determine whether a given string is a palindrome while ignoring case, I will create a Python function that reverses the string and compares it to the original, case-insensitive.  Here's the approach and code:\n\n**1.  Function Definition:**\n\nThe core of the program will be a function that takes a string as input and returns `True` if it's a palindrome (ignoring case), and `False` otherwise.\n\n**2.  Case-Insensitive Reversal:**\n\nThe string needs to be converted to lowercase before reversal to ensure case insensitivity.\n\n**3.  Comparison:**\n\nThe reversed, lowercase string will be compared to the original lowercase string.\n\n\nHere's the Python code implementing this:\n\n\n```python\ndef is_palindrome(text):    \"\"\"Checks if a given string is a palindrome (case-insensitive).\"\"\" \n    processed_text = text.lower()\n    reversed_text = processed_text[::-1]  # Efficient string reversal\n    return processed_text == reversed_text\n\n# Example usage:\nstring1 = \"madam\"\nstring2 = \"Racecar\"\nstring3 = \"hello\"\nprint(f\"'{string1}' is a palindrome: {is_palindrome(string1)}\")\nprint(f\"'{string2}' is a palindrome: {is_palindrome(string2)}\")\nprint(f\"'{string3}' is a palindrome: {is_palindrome(string3)}\")\n\n```\n\nThis code efficiently checks for palindromes by leveraging Python's string slicing for reversal and the `lower()` method for case-insensitive comparison.  The output clearly indicates whether each test string is a palindrome or not.",
+    "fileSelected" : true,
+    "files": [
+        {
+          "id": 1,
+          "name": "file1.png",
+          "mimeType" : "image/png",
+          "path" : "example/path",
+          "encodedData" : "ertyjnbvfrt678ikmnbgtyuikoghjkoijbvghjjh"
+        }
+      ]
+  },
+  {
+    "id" : 6 ,
+    "prompt" : "What is the meaning of life?",
+    "output" : "To generate a JSON format with 10 colors as IDs and a list of fruits in that color, I need to decide on the 10 colors and their associated fruits.  I'll choose a diverse range of colors and fruits, but if you have preferences for specific colors or fruits, please let me know.\n\nHere's the JSON I'll create, and then I'll show the Python code that could generate similar JSONs with different options.\n\n\n```json\n{\n  \"colors\": [\n    {\"id\": 1, \"color\": \"Red\", \"fruits\": [\"Apple\", \"Strawberry\", \"Cherry\"]},\n    {\"id\": 2, \"color\": \"Green\", \"fruits\": [\"Lime\", \"Kiwi\", \"Avocado\"]},\n    {\"id\": 3, \"color\": \"Yellow\", \"fruits\": [\"Banana\", \"Lemon\", \"Pineapple\"]},\n    {\"id\": 4, \"color\": \"Orange\", \"fruits\": [\"Orange\", \"Mango\", \"Peach\"]},\n    {\"id\": 5, \"color\": \"Purple\", \"fruits\": [\"Grape\", \"Plum\", \"Eggplant\"]},\n    {\"id\": 6, \"color\": \"Blue\", \"fruits\": [\"Blueberry\", \"Blackberry\"]},\n    {\"id\": 7, \"color\": \"Pink\", \"fruits\": [\"Watermelon\", \"Pink Grapefruit\"]},\n    {\"id\": 8, \"color\": \"Brown\", \"fruits\": [\"Coconut\", \"Date\"]},\n    {\"id\": 9, \"color\": \"White\", \"fruits\": [\"Pear\"]},\n    {\"id\": 10, \"color\": \"Black\", \"fruits\": [\"Blackberry\"]}\n  ]\n}\n```\n\nHere's Python code that could generate a similar JSON, allowing for more flexibility:\n",
+    "fileSelected" : false,
+    "files" : null
+  }
+]
